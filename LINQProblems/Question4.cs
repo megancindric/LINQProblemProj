@@ -8,10 +8,7 @@ namespace LINQProblems
 {
     class Question4
     {
-        public Question4()
-        {
-
-        }
+     
         public string GetLetterFrequency(string stringValue)
         {
             string result = "";

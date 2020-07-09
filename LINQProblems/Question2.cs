@@ -8,7 +8,7 @@ namespace LINQProblems
 {
     class Question2
     {
-        public List<string> ProvideDistinctList(List<string> listOfStrings)
+        public static List<string> ProvideDistinctList(List<string> listOfStrings)
         {
             var distinctWords = listOfStrings.Distinct().ToList();
             return distinctWords;
